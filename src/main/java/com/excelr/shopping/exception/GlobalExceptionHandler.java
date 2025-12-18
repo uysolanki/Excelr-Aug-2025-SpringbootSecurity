@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.excelr.shopping.controller.ProductController;
 
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 
 @RestControllerAdvice(assignableTypes = {
 	    ProductController.class

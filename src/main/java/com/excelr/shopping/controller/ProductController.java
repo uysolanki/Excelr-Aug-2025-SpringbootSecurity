@@ -23,7 +23,7 @@ import com.excelr.shopping.model.Product;
 import com.excelr.shopping.model.Rating;
 import com.excelr.shopping.service.ProductService;
 
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 
 @RestController
 public class ProductController {
