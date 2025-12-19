@@ -1,0 +1,32 @@
+INSERT INTO `excelraugspringbootdbsecurity`.`user` (
+`userid` ,
+`password` ,
+`username`
+)
+VALUES (
+NULL , '$2a$12$kiBkrAZ5dzjE6/NBMjyrOuaDhcnRM//RFFyWsKumPlzUmgtcMPtfG', 'alice@gmail.com'
+), (
+NULL , '$2a$12$oR3TWsT9WGg01JUWfBEEae3sTvIo0FaMiIStqVAhXpl7hL5InTJMi', 'ben@gmail.com'
+);
+
+
+INSERT INTO `excelraugspringbootdbsecurity`.`role` (
+`roleid` ,
+`rolename`
+)
+VALUES (
+NULL , 'ADMIN'
+), (
+NULL , 'USER'
+);
+
+
+INSERT INTO `excelraugspringbootdbsecurity`.`users_roles` (
+`fkuserid` ,
+`fkroleid`
+)
+VALUES (
+'1', '1'
+), (
+'2', '2'
+);
