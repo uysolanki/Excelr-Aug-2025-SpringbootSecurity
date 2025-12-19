@@ -1,4 +1,4 @@
-package com.excelr.shopping.model;
+package com.excelr.shopping.entity;
 
 import java.time.LocalDateTime;
 

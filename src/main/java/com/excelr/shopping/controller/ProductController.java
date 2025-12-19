@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.excelr.shopping.dto.ProductRequestDTO;
 import com.excelr.shopping.dto.ProductResponseDTO;
-import com.excelr.shopping.model.Product;
-import com.excelr.shopping.model.Rating;
+import com.excelr.shopping.entity.Product;
+import com.excelr.shopping.entity.Rating;
 import com.excelr.shopping.service.ProductService;
 
 import javax.validation.Valid;

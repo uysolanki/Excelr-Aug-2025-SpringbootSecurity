@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.excelr.shopping.model.Product;
+import com.excelr.shopping.entity.Product;
 import com.excelr.shopping.service.ProductService;
 
 @Controller

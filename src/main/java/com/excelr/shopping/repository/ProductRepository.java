@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.excelr.shopping.model.Product;
+import com.excelr.shopping.entity.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Integer>
